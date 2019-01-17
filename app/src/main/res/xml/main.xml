@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="选择你要格式化的分区"/>
+    <PreferenceScreen android:title="recovery" android:key="recovery"/>
+    <PreferenceScreen android:title="boot" android:key="boot"/>
+    <PreferenceScreen android:title="aboot" android:key="aboot"/>
+    <PreferenceScreen android:title="system" android:key="system"/>
+    <PreferenceScreen android:title="userdata" android:key="userdata"/>
+    <PreferenceScreen android:title="我全都要" android:key="all"/>
+</PreferenceScreen>
